@@ -1,26 +1,23 @@
 [
   {
     "title": "Gambashop",
-    "imageSrc": "projects/project.png",
-    "description": "this is a project made to learn",
-    "skills": ["React", "Express", "Node"],
-    "demo": "blabla",
+    "imageSrc": "projects/gambashop.png",
+    "description": "A fullstack e-commerce shop with user authentication aswell as different user roles",
+    "skills": ["Javascript", "React", "Express", "Node", "MongoDB"],
     "source": "https://github.com/GomeBM/MERN_Shopping"
   },
   {
     "title": "Personal Portfolio",
-    "imageSrc": "projects/project.png",
-    "description": "this is a project made to learn",
-    "skills": ["React", "Express", "Node"],
-    "demo": "blabla",
-    "source": "https://github.com/GomeBM/MERN_Shopping"
+    "imageSrc": "projects/portfolioImage.png",
+    "description": "My own personal portfolio website. yes, it's the one you're surfing on right now!",
+    "skills": ["Javascript", "React"],
+    "source": "https://github.com/GomeBM/portfolio-website"
   },
   {
     "title": "Android Recipe app",
     "imageSrc": "projects/project.png",
-    "description": "this is a project made to learn",
-    "skills": ["React", "Express", "Node"],
-    "demo": "blabla",
-    "source": "https://github.com/GomeBM/MERN_Shopping"
+    "description": "Android recipe app which allows the user to enter ingredients he has home, and receive recipes based on his ingredients",
+    "skills": ["Java", "Android studio"],
+    "source": "https://github.com/GomeBM/RecipeFinder"
   }
 ]
