@@ -16,7 +16,7 @@
 .projectCard-container:hover {
   transform: scale(1.1);
   transform: translateY(-30px);
-  border: 5px solid rgba(255, 255, 255, 0.694);
+  border: 5px solid rgba(255, 255, 255, 0.918);
 }
 
 .projectCard-image {
