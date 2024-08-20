@@ -91,9 +91,4 @@
     height: 60%;
     object-fit: contain;
   }
-
-  .skills-content {
-    justify-content: start;
-    margin-top: 4px;
-  }
 }
