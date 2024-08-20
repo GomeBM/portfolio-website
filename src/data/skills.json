@@ -18,5 +18,21 @@
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "Postman",
+    "imageSrc": ""
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": ""
+  },
+  {
+    "title": "Java",
+    "imageSrc": ""
+  },
+  {
+    "title": "Python",
+    "imageSrc": ""
   }
 ]

@@ -1,9 +1,9 @@
 import React from "react";
 import skills from "../../data/skills.json";
 import { getImageURL } from "../../utils";
-import { FaHtml5, FaReact, FaNodeJs } from "react-icons/fa";
-import { IoLogoCss3 } from "react-icons/io";
-import { SiMongodb } from "react-icons/si";
+import { FaHtml5, FaReact, FaNodeJs, FaJava, FaPython } from "react-icons/fa";
+import { IoLogoCss3, IoLogoJavascript } from "react-icons/io";
+import { SiMongodb, SiPostman } from "react-icons/si";
 import "./Skills.css";
 
 export const Skills = () => {
@@ -13,6 +13,10 @@ export const Skills = () => {
     <FaReact className="skills-skill-icon react-icon" />,
     <FaNodeJs className="skills-skill-icon node-icon" />,
     <SiMongodb className="skills-skill-icon mongo-icon" />,
+    <SiPostman className="skills-skill-icon postman-icon" />,
+    <IoLogoJavascript className="skills-skill-icon javascript-icon" />,
+    <FaJava className="skills-skill-icon java-icon" />,
+    <FaPython className="skills-skill-icon python-icon" />,
   ];
   return (
     <section className="skills-container" id="skills">
