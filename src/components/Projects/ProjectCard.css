@@ -71,3 +71,9 @@
   background: var(--color-primary);
   padding: 1px 22px;
 }
+
+@media screen and (max-width: 830px) {
+  .projectCard-container {
+    max-width: 380px;
+  }
+}
