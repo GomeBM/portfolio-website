@@ -105,4 +105,19 @@
   .hero-content {
     align-items: center;
   }
+
+  .hero-title {
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 33px;
+    margin-top: 10px;
+    font-family: var(--font-roboto);
+    color: var(--color-text);
+    background: none;
+    -webkit-text-fill-color: initial;
+    -webkit-background-clip: initial;
+  }
+  .hero-img {
+    width: 60%;
+  }
 }

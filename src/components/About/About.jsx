@@ -18,8 +18,9 @@ export const About = () => {
             <div className="about-item-text">
               <h3>Frontend developer</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Reprehenderit, placeat. Ut aut rem soluta.
+                I have hands on experience with building beautifull client side
+                applications both for the android platform using java and for
+                the web using React and javascript
               </p>
             </div>
           </li>
@@ -28,18 +29,9 @@ export const About = () => {
             <div className="about-item-text">
               <h3>Backend developer</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Reprehenderit, placeat. Ut aut rem soluta.
-              </p>
-            </div>
-          </li>
-          <li className="about-item">
-            <img src={getImageURL("about/uiIcon.png")} alt="UI icon" />
-            <div className="about-item-text">
-              <h3>UI designer</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Reprehenderit, placeat. Ut aut rem soluta.
+                I have hands on experience with building the server side of
+                several mobile and web apps.
+                <br /> mainly using Express and MongoDB.
               </p>
             </div>
           </li>

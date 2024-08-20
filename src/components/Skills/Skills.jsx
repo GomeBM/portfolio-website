@@ -22,10 +22,7 @@ export const Skills = () => {
           {skills.map((skill, id) => {
             return (
               <div key={id} className="skills-skill">
-                <div className="skills-image-container">
-                  {/* <img src={getImageURL(skill.imageSrc)} alt={skill.title} /> */}
-                  {icons[id]}
-                </div>
+                <div className="skills-image-container">{icons[id]}</div>
                 <p>{skill.title}</p>
               </div>
             );

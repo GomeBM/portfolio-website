@@ -84,3 +84,11 @@
 .html-icon {
   color: orangered;
 }
+
+@media screen and (max-width: 830px) {
+  .skills-skill-icon {
+    width: 60%;
+    height: 60%;
+    object-fit: contain; /* Or 'cover' if you want to cover the entire container */
+  }
+}
