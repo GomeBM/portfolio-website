@@ -22,6 +22,11 @@ export const ProjectCard = ({
         ))}
       </ul>
       <div className="projectCard-links">
+        {demo && (
+          <a href={demo} className="projectCard-link">
+            Demo
+          </a>
+        )}
         <a href={source} className="projectCard-link">
           Source
         </a>

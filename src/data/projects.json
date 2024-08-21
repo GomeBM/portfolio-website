@@ -4,14 +4,16 @@
     "imageSrc": "projects/gambashop.png",
     "description": "A fullstack e-commerce shop with user authentication aswell as different user roles",
     "skills": ["Javascript", "React", "Express", "Node", "MongoDB"],
-    "source": "https://github.com/GomeBM/MERN_Shopping"
+    "source": "https://github.com/GomeBM/MERN_Shopping",
+    "demo": "https://mern-shopping-8mtj.vercel.app/"
   },
   {
     "title": "Personal Portfolio",
     "imageSrc": "projects/portfolioImage.png",
     "description": "My own personal portfolio website. yes, it's the one you're surfing on right now!",
     "skills": ["Javascript", "React"],
-    "source": "https://github.com/GomeBM/portfolio-website"
+    "source": "https://github.com/GomeBM/portfolio-website",
+    "demo": "https://gomebm.netlify.app/"
   },
   {
     "title": "Android Recipe app",
