@@ -5,7 +5,7 @@
     "description": "A fullstack e-commerce shop with user authentication aswell as different user roles",
     "skills": ["Javascript", "React", "Express", "Node", "MongoDB"],
     "source": "https://github.com/GomeBM/MERN_Shopping",
-    "demo": "https://mern-shopping-8mtj.vercel.app/"
+    "demo": "https://gambashop.vercel.app/"
   },
   {
     "title": "Personal Portfolio",
