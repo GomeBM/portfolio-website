@@ -104,7 +104,8 @@
 
 @media screen and (max-width: 830px) {
   .skills-skill {
-    width: 20%;
+    width: 30%;
+    margin: 12px;
   }
   .skills-title {
     text-align: center;
