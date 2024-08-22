@@ -7,9 +7,9 @@ export const Hero = () => {
   return (
     <section className="hero-container">
       <div className="hero-content">
-        <h1 className="hero-title">Hi, i'm Gome</h1>
+        <h1 className="hero-title">Hi, I'm Gome</h1>
         <p className="hero-description">
-          I'm a full stack-developer with experience in React and nodeJS. <br />
+          I'm a full-stack developer with experience in React and NodeJS. <br />
           Reach out if you'd like to learn more
         </p>
         <a className="hero-contact-btn" href="mailto:gomebenmoshe@gmail.com">

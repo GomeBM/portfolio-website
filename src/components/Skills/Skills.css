@@ -51,6 +51,7 @@
   width: 100px;
   height: 100px;
   margin-bottom: 10px;
+  align-items: center;
 }
 
 .skills-image-container img {
@@ -102,9 +103,10 @@
 }
 
 @media screen and (max-width: 830px) {
-  .skills-skill-icon {
-    width: 60%;
-    height: 60%;
-    object-fit: contain;
+  .skills-skill {
+    width: 20%;
+  }
+  .skills-title {
+    text-align: center;
   }
 }
