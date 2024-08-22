@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import { getImageURL } from "../../utils";
+import { FaFileDownload } from "react-icons/fa";
 
 export const Hero = () => {
   return (
@@ -13,6 +14,14 @@ export const Hero = () => {
         </p>
         <a className="hero-contact-btn" href="mailto:gomebenmoshe@gmail.com">
           Contact me{" "}
+        </a>
+        <a
+          className="hero-contact-btn"
+          href="/Gome_Ben_Moshe_CV.pdf"
+          download="Gome_Ben_Moshe_CV.pdf"
+        >
+          <FaFileDownload className="hero-downloadCV-icon" />
+          Download CV
         </a>
       </div>
       <img

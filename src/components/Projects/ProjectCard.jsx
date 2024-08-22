@@ -5,6 +5,12 @@ import "./ProjectCard.css";
 export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
 }) => {
+  const handleDemoClick = (event) => {
+    if (demo === "#") {
+      event.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
   return (
     <div className="projectCard-container">
       <img
@@ -23,11 +29,22 @@ export const ProjectCard = ({
       </ul>
       <div className="projectCard-links">
         {demo && (
-          <a href={demo} className="projectCard-link">
+          <a
+            href={demo}
+            className="projectCard-link"
+            target={demo === "#" ? "_self" : "_blank"}
+            rel={demo === "#" ? "" : "noopener noreferrer"}
+            onClick={handleDemoClick}
+          >
             Demo
           </a>
         )}
-        <a href={source} className="projectCard-link">
+        <a
+          href={source}
+          className="projectCard-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Source
         </a>
       </div>
