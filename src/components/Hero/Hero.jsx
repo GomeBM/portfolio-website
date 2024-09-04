@@ -17,7 +17,7 @@ export const Hero = () => {
         </a>
         <a
           className="hero-contact-btn"
-          href="/Gome_Ben_Moshe_CV.pdf"
+          href="/Gome Ben Moshe Resume.pdf"
           download="Gome_Ben_Moshe_CV.pdf"
         >
           <FaFileDownload className="hero-downloadCV-icon" />
@@ -29,8 +29,6 @@ export const Hero = () => {
         src={getImageURL("hero/heroMe.png")}
         alt="Hero image of me"
       />
-      <div className="top-blur" />
-      <div className="bottom-blur" />
     </section>
   );
 };
