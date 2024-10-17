@@ -18,6 +18,8 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  width: 90%;
+  border-radius: 10px;
 }
 
 .skills-content {
@@ -40,11 +42,25 @@
   transform: translateY(-30px);
 }
 
+.skills-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
 .skills-skills {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
+  text-align: center;
   margin-top: 14px;
+  width: 90%;
+  background-color: var(--color-bg);
+  border-radius: 10px;
+}
+
+.skills-skills:hover {
+  background-color: var(--color-secondary);
 }
 
 .skills-image-container {
@@ -64,6 +80,10 @@
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.skills-group-title {
+  margin-bottom: 15px;
 }
 
 .mongo-icon {
@@ -95,7 +115,7 @@
 }
 
 .python-icon {
-  color: rgb(21, 51, 121);
+  color: rgb(0, 128, 255);
 }
 
 .javascript-icon {
@@ -109,5 +129,9 @@
   }
   .skills-title {
     text-align: center;
+  }
+  .skills-icons {
+    flex-direction: column;
+    align-items: center;
   }
 }

@@ -17,7 +17,7 @@ export const Hero = () => {
         </a>
         <a
           className="hero-contact-btn"
-          href="Gome_Ben_Moshe_Resume.pdf"
+          href="Gome_Ben_Moshe_CV.pdf"
           download="Gome_Ben_Moshe_Resume.pdf"
         >
           <FaFileDownload className="hero-downloadCV-icon" />

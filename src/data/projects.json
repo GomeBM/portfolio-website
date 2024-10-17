@@ -2,10 +2,18 @@
   {
     "title": "Gambashop",
     "imageSrc": "projects/gambashop.png",
-    "description": "A fullstack e-commerce shop with user authentication aswell as different user roles",
-    "skills": ["Javascript", "React", "Express", "Node", "MongoDB"],
+    "description": "A fullstack e-commerce shop with user authentication as well as different user roles",
+    "skills": ["Javascript", "React", "Express", "NodeJS", "MongoDB"],
     "source": "https://github.com/GomeBM/MERN_Shopping",
     "demo": "https://gambashop.vercel.app/"
+  },
+  {
+    "title": "Matkonim",
+    "imageSrc": "projects/matkonim.png",
+    "description": "A full-stack web app which allows users to share recipes",
+    "skills": ["Javascript", "React", "Express", "NodeJS", "MongoDB"],
+    "source": "https://github.com/GomeBM/Recipe_app",
+    "demo": "https://matkonim.vercel.app/"
   },
   {
     "title": "Personal Portfolio",
@@ -14,12 +22,5 @@
     "skills": ["Javascript", "React"],
     "source": "https://github.com/GomeBM/portfolio-website",
     "demo": "#"
-  },
-  {
-    "title": "Android Recipe app",
-    "imageSrc": "projects/project.png",
-    "description": "Android recipe app which allows the user to enter ingredients he has home, and receive recipes based on his ingredients",
-    "skills": ["Java", "Android studio"],
-    "source": "https://github.com/GomeBM/RecipeFinder"
   }
 ]

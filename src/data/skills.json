@@ -1,38 +1,44 @@
-[
-  {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
-  },
-  {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
-  },
-  {
-    "title": "React",
-    "imageSrc": "skills/react.png"
-  },
-  {
-    "title": "Node",
-    "imageSrc": "skills/node.png"
-  },
-  {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
-  },
-  {
-    "title": "Postman",
-    "imageSrc": ""
-  },
-  {
-    "title": "JavaScript",
-    "imageSrc": ""
-  },
-  {
-    "title": "Java",
-    "imageSrc": ""
-  },
-  {
-    "title": "Python",
-    "imageSrc": ""
-  }
-]
+{
+  "frontEndSkills": [
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "skills/react.png"
+    }
+  ],
+  "backEndSkills": [
+    {
+      "title": "NodeJS",
+      "imageSrc": "skills/node.png"
+    },
+    {
+      "title": "MongoDB",
+      "imageSrc": "skills/mongodb.png"
+    },
+    {
+      "title": "Postman",
+      "imageSrc": ""
+    }
+  ],
+  "programmingLanguages": [
+    {
+      "title": "JavaScript",
+      "imageSrc": ""
+    },
+    {
+      "title": "Java",
+      "imageSrc": ""
+    },
+    {
+      "title": "Python",
+      "imageSrc": ""
+    }
+  ]
+}
