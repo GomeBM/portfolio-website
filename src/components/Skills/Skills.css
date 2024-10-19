@@ -122,6 +122,10 @@
   color: yellow;
 }
 
+.express-icon {
+  color: black;
+}
+
 @media screen and (max-width: 830px) {
   .skills-skill {
     width: 30%;

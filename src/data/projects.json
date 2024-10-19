@@ -2,10 +2,11 @@
   {
     "title": "Gambashop",
     "imageSrc": "projects/gambashop.png",
-    "description": "A fullstack e-commerce shop with user authentication as well as different user roles",
+    "description": "A fullstack e-commerce all in once shop.",
     "skills": ["Javascript", "React", "Express", "NodeJS", "MongoDB"],
     "source": "https://github.com/GomeBM/MERN_Shopping",
-    "demo": "https://gambashop.vercel.app/"
+    "demo": "https://gambashop.vercel.app/",
+    "longDescription": "Gambashop is a full stack e-commerce web app, designed to mimick the shopping experience for users. It includes user authentication as well as different user roles. Each user can browse through hundreds of products, add them to their favourite list or their shopping cart and complete a purchase. Admin users can also add or delete products from the store and view statistics."
   },
   {
     "title": "Matkonim",
@@ -13,7 +14,8 @@
     "description": "A full-stack web app which allows users to share recipes",
     "skills": ["Javascript", "React", "Express", "NodeJS", "MongoDB"],
     "source": "https://github.com/GomeBM/Recipe_app",
-    "demo": "https://matkonim.vercel.app/"
+    "demo": "https://matkonim.vercel.app/",
+    "longDescription": "Matkonim is a full stack web app which allows users to share recipes with each other. The website allows users to browse through all of the recipes and filter them based on different attributes such as cuisine type, difficulty etc. Users can favourite recipes in order to save them as well as adding their own recipes."
   },
   {
     "title": "Personal Portfolio",
@@ -21,6 +23,7 @@
     "description": "My own personal portfolio website. yes, it's the one you're surfing on right now!",
     "skills": ["Javascript", "React"],
     "source": "https://github.com/GomeBM/portfolio-website",
-    "demo": "#"
+    "demo": "https://gomebm.vercel.app/",
+    "longDescription": "This is my own personal portfolio website where you can view essential information about me such as my CV, contact information as well as personal projects I've built."
   }
 ]

@@ -1,10 +1,18 @@
 import React from "react";
 import { getImageURL } from "../../utils";
+import { useNavigate } from "react-router-dom";
 import "./ProjectCard.css";
 
 export const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
 }) => {
+  const navigate = useNavigate();
+
+  const handleViewDetails = () => {
+    const formattedTitle = title.replace(/\s+/g, "-").toLowerCase();
+    navigate(`/${formattedTitle}`);
+  };
+
   const handleDemoClick = (event) => {
     if (demo === "#") {
       event.preventDefault();
@@ -28,24 +36,11 @@ export const ProjectCard = ({
         ))}
       </ul>
       <div className="projectCard-links">
-        {demo && (
-          <a
-            href={demo}
-            className="projectCard-link"
-            target={demo === "#" ? "_self" : "_blank"}
-            rel={demo === "#" ? "" : "noopener noreferrer"}
-            onClick={handleDemoClick}
-          >
-            Demo
-          </a>
-        )}
-        <a
-          href={source}
-          className="projectCard-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Source
+        <button onClick={handleViewDetails} className="projectCard-link">
+          View Details
+        </button>
+        <a href={demo} target="_blank" rel="noopener noreferrer">
+          Visit Website
         </a>
       </div>
     </div>
