@@ -37,7 +37,7 @@ export const ProjectCard = ({
       </ul>
       <div className="projectCard-links">
         <button onClick={handleViewDetails} className="projectCard-link">
-          View Details
+          More Details
         </button>
         <a href={demo} target="_blank" rel="noopener noreferrer">
           Visit Website
