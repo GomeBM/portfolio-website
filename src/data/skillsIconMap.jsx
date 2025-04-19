@@ -2,6 +2,9 @@
 import { FaHtml5, FaReact, FaNodeJs, FaJava, FaPython } from "react-icons/fa";
 import { IoLogoCss3, IoLogoJavascript } from "react-icons/io";
 import { SiMongodb, SiPostman, SiExpress } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
+import { SiSequelize } from "react-icons/si";
+import { FaVuejs } from "react-icons/fa";
 
 // Map for skill icons
 export const skillsIconMap = {
@@ -17,4 +20,7 @@ export const skillsIconMap = {
   MongoDB: <SiMongodb className="skills-skill-icon mongo-icon" />,
   Postman: <SiPostman className="skills-skill-icon postman-icon" />,
   Express: <SiExpress className="skills-skill-icon express-icon" />,
+  MySQL: <SiMysql className="skills-skill-icon mysql-icon" />,
+  Sequelize: <SiSequelize className="skills-skill-icon sequelize-icon" />,
+  Vue: <FaVuejs className="skills-skill-icon vue-icon" />,
 };

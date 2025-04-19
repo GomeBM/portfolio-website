@@ -9,6 +9,15 @@
     "longDescription": "Gambashop is a full stack e-commerce web app, designed to mimick the shopping experience for users. It includes user authentication as well as different user roles. Each user can browse through hundreds of products, add them to their favourite list or their shopping cart and complete a purchase. Admin users can also add or delete products from the store and view statistics."
   },
   {
+    "title": "Games hub",
+    "imageSrc": "projects/games-hub.png",
+    "description": "Project built to test my Vue.js, node.js, express and mySQL skills.",
+    "skills": ["Javascript", "Vue", "Express", "NodeJS", "MySQL", "Sequelize"],
+    "source": "https://github.com/GomeBM/Games-info",
+    "demo": "https://gomebm.vercel.app/",
+    "longDescription": "This is a project ive built in order to test my own skills, primarily using vue js with vuex for state management. The project is a simple web app which allows users to search for games and view their details. The app uses a node.js express backend with a mySQL database to store the games data. The app also uses sequelize as an ORM to interact with the database."
+  },
+  {
     "title": "Matkonim",
     "imageSrc": "projects/matkonim.png",
     "description": "A full-stack web app which allows users to share recipes",
@@ -16,14 +25,5 @@
     "source": "https://github.com/GomeBM/Recipe_app",
     "demo": "https://matkonim.vercel.app/",
     "longDescription": "Matkonim is a full stack web app which allows users to share recipes with each other. The website allows users to browse through all of the recipes and filter them based on different attributes such as cuisine type, difficulty etc. Users can favourite recipes in order to save them as well as adding their own recipes."
-  },
-  {
-    "title": "Personal Portfolio",
-    "imageSrc": "projects/portfolioImage.png",
-    "description": "My own personal portfolio website. yes, it's the one you're surfing on right now!",
-    "skills": ["Javascript", "React"],
-    "source": "https://github.com/GomeBM/portfolio-website",
-    "demo": "https://gomebm.vercel.app/",
-    "longDescription": "This is my own personal portfolio website where you can view essential information about me such as my CV, contact information as well as personal projects I've built."
   }
 ]
